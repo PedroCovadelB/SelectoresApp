@@ -53,10 +53,10 @@ export class SelectorPageComponent implements OnInit {
       )
       .subscribe(paises => {
         this.fronteras = paises
+        console.log(this.fronteras)
         this.cargando = false
       })
   }
-
   guardar(){
 
   }
